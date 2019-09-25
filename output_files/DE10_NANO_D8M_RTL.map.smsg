@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at AUTO_SYNC_MODIFY.v(4): object "VS" differs only in case from object "vs" in the same scope File: C:/intelFPGA_lite/18.1/Projects/Sobel_DE10Nano/V_Auto/AUTO_SYNC_MODIFY.v Line: 4
+Info (10281): Verilog HDL Declaration information at AUTO_SYNC_MODIFY.v(5): object "HS" differs only in case from object "hs" in the same scope File: C:/intelFPGA_lite/18.1/Projects/Sobel_DE10Nano/V_Auto/AUTO_SYNC_MODIFY.v Line: 5

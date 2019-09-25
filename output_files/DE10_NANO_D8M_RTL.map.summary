@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Wed Sep 25 14:52:07 2019
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : DE10_NANO_D8M_RTL
+Top-level Entity Name : DE10_NANO_D8M_RTL
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 14503
+Total pins : 74
+Total virtual pins : 0
+Total block memory bits : 3,133,984
+Total DSP Blocks : 2
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 2
+Total DLLs : 0

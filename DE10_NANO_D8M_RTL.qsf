@@ -1,0 +1,253 @@
+#============================================================
+# Build by Terasic System Builder
+#============================================================
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSEBA6U23I7
+set_global_assignment -name TOP_LEVEL_ENTITY "DE10_NANO_D8M_RTL"
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 16.0.2
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:10:34 DECEMBER 19,2016"
+set_global_assignment -name DEVICE_FILTER_PACKAGE UFBGA
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 672
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 7
+
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+#============================================================
+# CLOCK
+#============================================================
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to FPGA_CLK1_50
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to FPGA_CLK2_50
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to FPGA_CLK3_50
+set_location_assignment PIN_V11 -to FPGA_CLK1_50
+set_location_assignment PIN_Y13 -to FPGA_CLK2_50
+set_location_assignment PIN_E11 -to FPGA_CLK3_50
+
+#============================================================
+# HDMI
+#============================================================
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_I2C_SCL
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_I2C_SDA
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_I2S
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_LRCLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_MCLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_SCLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_CLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_DE
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_D[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_D[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_D[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_D[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_D[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_D[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_D[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_D[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_D[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_D[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_D[10]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_D[11]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_D[12]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_D[13]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_D[14]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_D[15]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_D[16]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_D[17]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_D[18]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_D[19]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_D[20]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_D[21]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_D[22]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_D[23]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_HS
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_INT
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_VS
+set_location_assignment PIN_U10 -to HDMI_I2C_SCL
+set_location_assignment PIN_AA4 -to HDMI_I2C_SDA
+set_location_assignment PIN_T13 -to HDMI_I2S
+set_location_assignment PIN_T11 -to HDMI_LRCLK
+set_location_assignment PIN_U11 -to HDMI_MCLK
+set_location_assignment PIN_T12 -to HDMI_SCLK
+set_location_assignment PIN_AG5 -to HDMI_TX_CLK
+set_location_assignment PIN_AD19 -to HDMI_TX_DE
+set_location_assignment PIN_AD12 -to HDMI_TX_D[0]
+set_location_assignment PIN_AE12 -to HDMI_TX_D[1]
+set_location_assignment PIN_W8 -to HDMI_TX_D[2]
+set_location_assignment PIN_Y8 -to HDMI_TX_D[3]
+set_location_assignment PIN_AD11 -to HDMI_TX_D[4]
+set_location_assignment PIN_AD10 -to HDMI_TX_D[5]
+set_location_assignment PIN_AE11 -to HDMI_TX_D[6]
+set_location_assignment PIN_Y5 -to HDMI_TX_D[7]
+set_location_assignment PIN_AF10 -to HDMI_TX_D[8]
+set_location_assignment PIN_Y4 -to HDMI_TX_D[9]
+set_location_assignment PIN_AE9 -to HDMI_TX_D[10]
+set_location_assignment PIN_AB4 -to HDMI_TX_D[11]
+set_location_assignment PIN_AE7 -to HDMI_TX_D[12]
+set_location_assignment PIN_AF6 -to HDMI_TX_D[13]
+set_location_assignment PIN_AF8 -to HDMI_TX_D[14]
+set_location_assignment PIN_AF5 -to HDMI_TX_D[15]
+set_location_assignment PIN_AE4 -to HDMI_TX_D[16]
+set_location_assignment PIN_AH2 -to HDMI_TX_D[17]
+set_location_assignment PIN_AH4 -to HDMI_TX_D[18]
+set_location_assignment PIN_AH5 -to HDMI_TX_D[19]
+set_location_assignment PIN_AH6 -to HDMI_TX_D[20]
+set_location_assignment PIN_AG6 -to HDMI_TX_D[21]
+set_location_assignment PIN_AF9 -to HDMI_TX_D[22]
+set_location_assignment PIN_AE8 -to HDMI_TX_D[23]
+set_location_assignment PIN_T8 -to HDMI_TX_HS
+set_location_assignment PIN_AF11 -to HDMI_TX_INT
+set_location_assignment PIN_V13 -to HDMI_TX_VS
+
+#============================================================
+# KEY
+#============================================================
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[1]
+set_location_assignment PIN_AH17 -to KEY[0]
+set_location_assignment PIN_AH16 -to KEY[1]
+
+#============================================================
+# LED
+#============================================================
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED[7]
+set_location_assignment PIN_W15 -to LED[0]
+set_location_assignment PIN_AA24 -to LED[1]
+set_location_assignment PIN_V16 -to LED[2]
+set_location_assignment PIN_V15 -to LED[3]
+set_location_assignment PIN_AF26 -to LED[4]
+set_location_assignment PIN_AE26 -to LED[5]
+set_location_assignment PIN_Y16 -to LED[6]
+set_location_assignment PIN_AA23 -to LED[7]
+
+#============================================================
+# SW
+#============================================================
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[3]
+set_location_assignment PIN_Y24 -to SW[0]
+set_location_assignment PIN_W24 -to SW[1]
+set_location_assignment PIN_W21 -to SW[2]
+set_location_assignment PIN_W20 -to SW[3]
+
+#============================================================
+# GPIO_0, GPIO connect to D8M-GPIO
+#============================================================
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to CAMERA_I2C_SCL
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to CAMERA_I2C_SDA
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to CAMERA_PWDN_n
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MIPI_CS_n
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MIPI_I2C_SCL
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MIPI_I2C_SDA
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MIPI_MCLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MIPI_PIXEL_CLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MIPI_PIXEL_D[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MIPI_PIXEL_D[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MIPI_PIXEL_D[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MIPI_PIXEL_D[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MIPI_PIXEL_D[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MIPI_PIXEL_D[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MIPI_PIXEL_D[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MIPI_PIXEL_D[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MIPI_PIXEL_D[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MIPI_PIXEL_D[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MIPI_PIXEL_HS
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MIPI_PIXEL_VS
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MIPI_REFCLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MIPI_RESET_n
+set_location_assignment PIN_AA18 -to CAMERA_I2C_SCL
+set_location_assignment PIN_W14 -to CAMERA_I2C_SDA
+set_location_assignment PIN_W11 -to CAMERA_PWDN_n
+set_location_assignment PIN_AB23 -to MIPI_CS_n
+set_location_assignment PIN_AB25 -to MIPI_I2C_SCL
+set_location_assignment PIN_AB26 -to MIPI_I2C_SDA
+set_location_assignment PIN_Y18 -to MIPI_MCLK
+#set_location_assignment PIN_V12 -to MIPI_PIXEL_CLK
+set_location_assignment PIN_E8 -to MIPI_PIXEL_CLK
+set_location_assignment PIN_D11 -to MIPI_PIXEL_D[0]
+set_location_assignment PIN_D8 -to MIPI_PIXEL_D[1]
+set_location_assignment PIN_AH13 -to MIPI_PIXEL_D[2]
+set_location_assignment PIN_AF7 -to MIPI_PIXEL_D[3]
+set_location_assignment PIN_AH14 -to MIPI_PIXEL_D[4]
+set_location_assignment PIN_AF4 -to MIPI_PIXEL_D[5]
+set_location_assignment PIN_AH3 -to MIPI_PIXEL_D[6]
+set_location_assignment PIN_AD5 -to MIPI_PIXEL_D[7]
+set_location_assignment PIN_AG14 -to MIPI_PIXEL_D[8]
+set_location_assignment PIN_AE23 -to MIPI_PIXEL_D[9]
+set_location_assignment PIN_Y19 -to MIPI_PIXEL_HS
+set_location_assignment PIN_AC23 -to MIPI_PIXEL_VS
+set_location_assignment PIN_C12 -to MIPI_REFCLK
+set_location_assignment PIN_AA19 -to MIPI_RESET_n
+
+#============================================================
+# End of pin assignments by Terasic System Builder
+#============================================================
+#======================include  IP -=========================
+
+
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP "-40"
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 100
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+
+set_global_assignment -name VHDL_FILE to_grayscale.vhd
+set_global_assignment -name VHDL_FILE sobel.vhd
+set_global_assignment -name VHDL_FILE fifo.vhd
+set_global_assignment -name VHDL_FILE edge_detect_top.vhd
+set_global_assignment -name VHDL_FILE edge_detect.vhd
+set_global_assignment -name VERILOG_FILE V/D8M_LUT.v
+set_global_assignment -name VERILOG_FILE V_D8M/R_GAIN.v
+set_global_assignment -name VERILOG_FILE V_D8M/G_GAIN.v
+set_global_assignment -name SDC_FILE DE10_NANO_D8M_RTL.SDC
+set_global_assignment -name VERILOG_FILE V/I2C_READ_DATA.v
+set_global_assignment -name VERILOG_FILE V/I2C_RESET_DELAY.v
+set_global_assignment -name VERILOG_FILE V/I2C_WRITE_PTR.v
+set_global_assignment -name VERILOG_FILE V/I2C_WRITE_WDATA.v
+set_global_assignment -name VERILOG_FILE V_HDMI/I2C_HDMI_Config.v
+set_global_assignment -name VERILOG_FILE V_HDMI/I2C_Controller.v
+set_global_assignment -name VERILOG_FILE V_HDMI/HDMI_TX_AD7513.v
+set_global_assignment -name VERILOG_FILE V_HDMI/HDMI_I2C_WRITE_WDATA.v
+set_global_assignment -name VERILOG_FILE V_HDMI/AUDIO_IF.v
+set_global_assignment -name QSYS_FILE V_D8M/FRAM_BUFF.qsys
+set_global_assignment -name VERILOG_FILE V_D8M/int_line.v
+set_global_assignment -name VERILOG_FILE V_D8M/RAW2RGB_J.v
+set_global_assignment -name VERILOG_FILE V_D8M/RAW_RGB_BIN.v
+set_global_assignment -name VERILOG_FILE V_D8M/RAM_READ_COUNTER.v
+set_global_assignment -name VERILOG_FILE V_D8M/ON_CHIP_FRAM.v
+set_global_assignment -name VERILOG_FILE V_D8M/MIPI_CAMERA_CONFIG.v
+set_global_assignment -name VERILOG_FILE V_D8M/MIPI_BRIDGE_CONFIG.v
+set_global_assignment -name VERILOG_FILE V_D8M/MIPI_BRIDGE_CAMERA_Config.v
+set_global_assignment -name VERILOG_FILE V_D8M/Line_Buffer_J.v
+set_global_assignment -name VERILOG_FILE V_D8M/FRM_COUNTER.v
+set_global_assignment -name VERILOG_FILE V_D8M/B_GAIN.v
+set_global_assignment -name QIP_FILE V_D8M/FRAM_BUFF.qip
+set_global_assignment -name VERILOG_FILE V_Auto/VCM_STEP.v
+set_global_assignment -name VERILOG_FILE V_Auto/VCM_I2C.v
+set_global_assignment -name VERILOG_FILE V_Auto/VCM_CTRL_P.v
+set_global_assignment -name VERILOG_FILE V_Auto/RESET_DELAY.v
+set_global_assignment -name VERILOG_FILE V_Auto/MODIFY_SYNC.v
+set_global_assignment -name VERILOG_FILE V_Auto/LCD_COUNTER.v
+set_global_assignment -name VERILOG_FILE V_Auto/I2C_DELAY.v
+set_global_assignment -name VERILOG_FILE V_Auto/FOCUS_ADJ.v
+set_global_assignment -name VERILOG_FILE V_Auto/F_VCM.v
+set_global_assignment -name VERILOG_FILE V_Auto/CLOCKMEM.v
+set_global_assignment -name VERILOG_FILE V_Auto/AUTO_SYNC_MODIFY.v
+set_global_assignment -name VERILOG_FILE V_Auto/AUTO_FOCUS_ON.v
+set_global_assignment -name QIP_FILE V/VIDEO_PLL.qip
+set_global_assignment -name SIP_FILE V/VIDEO_PLL.sip
+set_global_assignment -name QIP_FILE V/AUDIO_PLL.qip
+set_global_assignment -name SIP_FILE V/AUDIO_PLL.sip
+set_global_assignment -name VERILOG_FILE VGA_Controller/VGA_Controller.v
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
