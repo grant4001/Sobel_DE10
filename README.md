@@ -4,7 +4,7 @@ In this project, the Sobel operator is implemented on the Terasic DE10-Nano plat
 
 The incoming video stream (at 60 fps, 25 MHz) is converted into high luminosity grayscale, which provides greater contrast. The sobel filter is then applied in the form of two 3x3 kernels (x and y gradidents). 
 
-![Sobel Sample](/tree/master/images/sobel_cap.png)
+![Sobel Sample](https://github.com/grant4001/Sobel_DE10/blob/master/images/sobel_cap.PNG)
 
 
 The following aspects were implemented on the Cyclone V FPGA:
