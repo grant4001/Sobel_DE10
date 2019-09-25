@@ -4,6 +4,8 @@ In this project, the Sobel operator is implemented on the Terasic DE10-Nano plat
 
 The incoming video stream (at 60 fps, 25 MHz) is converted into high luminosity grayscale, which provides greater contrast. The sobel filter is then applied in the form of two 3x3 kernels (x and y gradidents). 
 
+![Sobel Sample](/images/sobel_cap.png)
+Format: ![Sample Picture](url)
 
 
 The following aspects were implemented on the Cyclone V FPGA:
@@ -27,9 +29,13 @@ Simulation and timing verification were done on ModelSim. Synthesis, PnR, Fitter
 References:
 
 Terasic DE10-Nano Platform (datasheet): https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=1046
+
 Terasic D8M-GPIO Camera module (demo and datasheet): http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=1011
+
 VGA timing guide (completely applicable to HDMI): https://timetoexplore.net/blog/video-timings-vga-720p-1080p
+
 Sobel reference: https://docs.opencv.org/2.4/doc/tutorials/imgproc/imgtrans/sobel_derivatives/sobel_derivatives.html
+
 Grayscale conversions: https://www.johndcook.com/blog/2009/08/24/algorithms-convert-color-grayscale/
 
 
